@@ -1,0 +1,162 @@
+.video {margin: auto; width: 640px;}
+
+
+/* Mise en page et mise en forme des blocs conteneurs */
+header {
+	border: ridge 4px black;
+	text-align: center;
+	height: 130px
+}
+
+header h1 {
+	font-size: 3em;
+	color: gold;
+	text-shadow: 2px  3px black;
+font-family:Signpainter;
+font-size: 4em
+}
+header h2 {
+	font-size: 5em;
+	color: gold;
+	text-shadow: 2px  3px black;
+font-family:Signpainter;
+}
+nav{ 
+font-family:SignPainter;
+font-size:1em; 
+color: gold ;
+}
+section {
+	border: 1px white solid;
+	/* opacity: 0.5;   opacité de tout le contenu */
+	padding: 1%;
+	margin: 20px 0 110px 0;
+}
+aside {
+	float: right;
+	width: 15%;
+	/* limite la hauteur et gestion débordement */
+	height: 500px;
+	overflow: auto;
+	padding: 1%;
+	margin: 0 0 0 1%;
+	border: 1px solid black;
+	background-color: white;
+}
+/* barre de navigation horizontale  */
+#barre {
+	background-color: #5E5E5E;
+	border: 1px gold #333;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+}
+#barre li {
+	display: inline;
+	list-style: none;
+}
+
+#barre a {
+	display: inline-block;
+	padding: 0 60px;
+	margin: 0;
+	height: 36px;
+	line-height: 36px;
+	text-decoration: none;
+	font-family: signpainter;
+	font-size: 3em;
+	color: gold;
+	border-left: 1px solid #555;
+	border-right: 1px solid #888;
+}
+
+#barre a:hover { background-color: #333333;}
+
+/* Mise en forme des titres, textes, arrière-plan, liens */
+body {
+	background-image: url(fond.jpg);
+	background-size: cover
+}
+nav h1 {
+	color: gold;
+	text-align: center;
+}
+
+/* création d'une class pour l'application d'un style spécifique au texte */
+.texteimportant {
+	color: black;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+p{
+	color: white;
+	font-size:22px;
+}
+
+h2{
+	color: gold;
+}
+
+
+h2,p
+{
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 1%;
+	width: 100%;
+}
+#gauche, #centre, #droite {
+	display: inline-block;
+	background-color: black;
+	border: 1px gold;
+	border-radius: 10px;
+	width: 30%;
+	padding: 0 1%;
+	color: gold
+}
+
+#centre {
+	text-align: center;
+}
+
+iframe {display: block; width: 640px; height: 360px; padding-bottom: 200px;}
+
+.carte li {margin-bottom: 12px; list-style: square;
+color:white;
+font-size:22px;
+}
+h2 {font-size: 3em;
+font-family:SignPainter;
+}
+
+iframe {
+	margin: 0 auto;
+	padding-bottom: 0;
+}
+.illustration {
+	text-align: center;
+}
+.address {
+	text-align: center;
+}
+.contenudepage {
+	position: relative;
+}
+.gif {
+	position: absolute;
+    top: 210px;
+    right: 240px;
+    width: 140px;
+    height: auto;
+}
+.cedre {
+	width: 150px;
+	height: auto;
+}
+.articlevideo {
+	text-align: center;
+}
